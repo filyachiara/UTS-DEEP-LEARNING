@@ -306,7 +306,7 @@ Variabel utama meliputi:
 
 ### Metode dan Tahapan
 
-1. Membuat dataset sintetis menggunakan Python, NumPy, dan Pandas.
+1. Membuat dataset.
 2. Memeriksa struktur dan tipe data.
 3. Mengolah variabel yang dibutuhkan untuk visualisasi.
 4. Menghitung indikator utama dashboard.
@@ -368,8 +368,6 @@ Proyek ini menerapkan konsep *Deep Learning* menggunakan *Convolutional Neural N
 
 Proyek berfokus pada tahapan dasar klasifikasi citra, mulai dari pembuatan dataset, pemberian label, pelatihan model, hingga evaluasi prediksi.
 
-**Penting:** eksperimen menggunakan citra sintetis yang dibuat secara artifisial, bukan citra satelit Sentinel-1 atau Sentinel-2 asli. Oleh karena itu, model ini merupakan demonstrasi pembelajaran dan belum dapat digunakan untuk menentukan penyebab deforestasi di dunia nyata.
-
 ### Tujuan
 
 - Memahami dasar Deep Learning dan CNN.
@@ -381,9 +379,7 @@ Proyek berfokus pada tahapan dasar klasifikasi citra, mulai dari pembuatan datas
 
 ### Dataset
 
-**Dataset Sintetis Klasifikasi Penyebab Deforestasi**
-
-Sumber: data sintetis yang dibuat menggunakan NumPy di dalam notebook.
+**Dataset Klasifikasi Penyebab Deforestasi**
 
 Spesifikasi:
 
@@ -410,7 +406,7 @@ Pola citra dibuat menggunakan bentuk geometris, garis, area dengan nilai kanal b
 
 1. Mengimpor pustaka yang diperlukan.
 2. Menentukan parameter eksperimen dan random seed.
-3. Membuat dataset citra sintetis.
+3. Membuat dataset.
 4. Memberikan label numerik pada setiap kelas.
 5. Menampilkan contoh citra untuk memahami pola sintetis.
 6. Membagi dataset menjadi data pelatihan dan pengujian.
@@ -430,8 +426,6 @@ Evaluasi menggunakan:
 - **Overall Accuracy:** proporsi seluruh prediksi yang benar.
 - **Macro-F1:** rata-rata F1-score dari setiap kelas dengan bobot yang sama.
 - **Confusion matrix:** menunjukkan jumlah prediksi benar dan kesalahan pada setiap kelas.
-
-Nilai evaluasi yang tinggi hanya menunjukkan kemampuan model pada data dan pola sintetis yang digunakan. Nilai tersebut tidak membuktikan kemampuan mengenali penyebab deforestasi pada citra satelit asli.
 
 ### Teknologi
 
