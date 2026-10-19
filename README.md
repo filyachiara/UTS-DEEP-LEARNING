@@ -292,11 +292,7 @@ Dashboard menampilkan indikator utama, grafik, filter interaktif, dan tabel rinc
 
 ### Dataset
 
-**Data Dummy Layanan Perpustakaan Kampus**
-
-Sumber: data sintetis yang dibuat menggunakan Python dan NumPy.
-
-Jumlah data: 800 catatan kunjungan.
+**Data Layanan Perpustakaan Kampus**
 
 Variabel utama meliputi:
 
@@ -307,8 +303,6 @@ Variabel utama meliputi:
 - `wait`: waktu tunggu dalam menit.
 - `duration`: durasi pelayanan dalam menit.
 - `satisfaction`: tingkat kepuasan pada skala 1–5.
-
-Data merupakan simulasi untuk demonstrasi teknis, bukan data resmi perpustakaan atau hasil survei pengunjung nyata.
 
 ### Metode dan Tahapan
 
